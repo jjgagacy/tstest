@@ -10,6 +10,7 @@ class Index extends Component{
                     <li><Link to={'/about'}>About</Link></li>
                     <li><Link to={'/contact'}>Contact</Link></li>
                     <li><Link to={'/count'}>Count</Link></li>
+                    <li><Link to={'/user'}>User</Link></li>
                 </ul>
             </div>
         );
