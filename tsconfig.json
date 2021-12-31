@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "CommonJS",
+        "target": "es6",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "noUnusedLocals": false,
+        "noImplicitAny": false,
+        "incremental": true,
+        "strictNullChecks": false,
+        "skipLibCheck": true,
+        "strictBindCallApply": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "removeComments": true,
+        "allowJs": true,
+        "checkJs": true,
+        "types": ["node", "typescript"]
+    },
+    "exclude": ["node_modules", "dist"]
+}
